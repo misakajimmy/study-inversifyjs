@@ -1,0 +1,14 @@
+{
+  "name": "study-inversifyjs",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "prepare": "lerna run prepare"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "notes/*"
+  ]
+}
