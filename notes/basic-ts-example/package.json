@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {
-    "start": "nodemon --exec node --loader ts-node/esm src/index.ts"
+    "start": "yarn run && yarn nodemon",
+    "run": "node --loader ts-node/esm src/index.ts",
+    "nodemon": "nodemon --exec node --loader ts-node/esm src/index.ts"
   },
   "type": "module",
   "dependencies": {
