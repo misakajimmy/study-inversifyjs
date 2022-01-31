@@ -3,13 +3,26 @@
     "module": "ESNext",
     "target": "ESNext",
     "sourceMap": true,
-    "moduleResolution": "Node",
+    "jsx": "react-jsx",
     "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "lib": [
+      "dom",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
   },
   "include": [
-    "./src/*"
+    "./src/**/*"
   ],
   "exclude": [
     "node_modules"
