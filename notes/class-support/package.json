@@ -1,5 +1,5 @@
 {
-  "name": "base-ts-example",
+  "name": "class-support",
   "version": "1.0.0",
   "main": "src/index.tsx",
   "description": "Inversifyjs study base project",
